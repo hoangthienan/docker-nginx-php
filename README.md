@@ -23,3 +23,5 @@ This will bind local port 80 to the container's port 80. This means you should b
 * `--enable-insecure-key` - Enable a generated SSL key so you can SSH into the container, again as per [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker). Generate your own SSH key for production use.
 * If you use this with [fideloper/docker-mysql](https://github.com/fideloper/docker-mysql), then [link this container](http://docs.docker.io/en/latest/use/working_with_links_names/) with MySQL's (after running the MySQL container first) via `-link mysql:db`
 * You can mount a local directory to nginx log directory at `/var/log/nginx/`. Such as: `-v /path/to/local/log/dir:/var/log/nginx/`
+
+Clone from: https://github.com/voduytuan/docker-nginx-php
